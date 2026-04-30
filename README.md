@@ -1,59 +1,58 @@
 # 📇 Address Book in C
 
-A simple Address Book application developed in C using structures and file handling.
-This project demonstrates CRUD (Create, Read, Update, Delete) operations.
+🚀 A console-based Address Book application built using C that allows users to efficiently manage contacts with file storage support.
 
 ---
 
-## 🚀 Features
+## 🔍 Overview
 
-* Add new contact
-* View all contacts
-* Search contact
-* Edit contact
-* Delete contact
-* File storage using CSV
+This project demonstrates how to build a real-world application using C programming concepts like structures, file handling, and modular design. It allows users to perform complete contact management operations such as adding, searching, editing, and deleting records.
+
+---
+
+## ✨ Features
+
+- Add new contact  
+- View all contacts  
+- Search contact by name  
+- Edit existing contact  
+- Delete contact  
+- Persistent storage using CSV file  
 
 ---
 
 ## 🛠️ Technologies Used
 
-* C Programming
-* File Handling
-* Structures
+- C Programming  
+- Structures  
+- File Handling  
 
 ---
 
 ## ▶️ How to Run
 
 ### Compile
-
 ```bash
 gcc main.c file.c contact.c populate.c -o addressbook
 ```
 
 ### Run
-
 ```bash
 ./addressbook
 ```
 
 ---
 
-## 📌 Sample Output
+## 📸 Output
 
-```
-1. Add Contact
-2. View Contacts
-3. Search Contact
-4. Edit Contact
-5. Delete Contact
+### 📌 Menu
+![Menu](menu.png)
 
-Enter choice: 1
-Enter Name: John
-Enter Phone: 1234567890
-Contact added successfully!
-```
+### 📌 Create Contact
+![Create](create.png)
+
+### 📌 Display Contacts
+![Display](display.png)
 
 ---
 
@@ -72,9 +71,12 @@ contacts.csv
 
 ---
 
-## 📖 Description
+## 📖 Key Learning Outcomes
 
-This project stores contact details in a file and allows users to perform operations like adding, viewing, editing, and deleting contacts efficiently.
+- Implemented CRUD operations in C  
+- Used file handling for persistent data storage  
+- Designed modular code using multiple source files  
+- Improved understanding of structures and data management  
 
 ---
 
@@ -82,7 +84,5 @@ This project stores contact details in a file and allows users to perform operat
 
 **Vanish B H**
 
-* 🔗 GitHub: https://github.com/VanishBH
-* 🔗 LinkedIn: https://www.linkedin.com/in/vanish-b-h-87914934a
-
----
+- GitHub: https://github.com/VanishBH  
+- LinkedIn: https://www.linkedin.com/in/vanish-b-h-87914934a  
